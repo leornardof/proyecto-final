@@ -91,8 +91,12 @@ display: inline-block;
 
 }
 
+.consultas{
+    background-color: 
+}
+
 .tabla1{
-    background-color: rgb(55, 151, 180);
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     background-position: unset;
     height: 10rem;
@@ -102,13 +106,13 @@ display: inline-block;
 }
 /*ASIDE COLUMNA*/ 
 .columna-flex{
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(255, 255, 255);
     width: 30%; /*Acá faltaba un punto y coma, por eso te anulaba todos los estilos debajo */
     padding: 2rem;
     font-size: 1rem;
     display: flex;
     justify-content: space-around;
-    
+    background-position: top;
     text-transform: inherit;
 
 }
