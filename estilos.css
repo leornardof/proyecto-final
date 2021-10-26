@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 } 
@@ -17,13 +18,42 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 8rem;
+    height: 9rem;
     
 }
 
 .header__navbar--principal{
     padding: 25px;
     list-style: none;
+}
+/*TRANSFORMACIONES Y RESPONSIVE- HEADER*/
+.personas-{
+    width: 100px;
+    overflow: hidden;
+}
+.personas-:hover{
+    transform: scale(2,2);
+}
+.contactos-{
+    width: 100px;
+    overflow: hidden;
+}
+.contactos-:hover{
+    transform: scale(2,2);
+}
+.empresa-{
+    width: 100px;
+    overflow: hidden;
+}
+.empresa-:hover{
+    transform: scale(2,2);
+}
+.institucional-{
+    width: 110px;
+    overflow:hidden;
+}
+.institucional-:hover{
+    transform: scale(2,2);
 }
     
 
@@ -39,10 +69,9 @@ display: inline-block;
     color: rgb(255, 255, 255);
     padding: 1.1rem;
     background-color: rgb(8, 8, 8);
-    text-transform: inherit;
-    
-    
+    text-transform: inherit;  
  }
+ 
 
  .header__titulo{
      color: white;
@@ -163,9 +192,46 @@ display: inline-block;
     height: 27rem;
     text-transform: inherit;
     color: black;
-   
-
 }
+/*TRANSFORMACIONES Y ANIMACIONES- CONTACTOS*/
+.efecto-nombre{
+    width: 150px;
+    overflow: hidden;
+}
+.efecto-nombre:hover{
+    transform: scale(1,2);
+}
+.efecto-apellido{
+    width: 150px;
+    overflow: hidden;
+}
+.efecto-apellido:hover{
+    transform: scale(1,2);
+}
+.consulta{
+    width: 100px;
+    overflow: hidden;
+}
+.consulta:hover{
+    transform: scale(1,2);
+}
+
+.limpiar{
+    width: 112px;
+    overflow: hidden;
+}
+.limpiar:hover{
+    transform: scale(1,2)
+}
+.nada{
+    width: 100px;
+    overflow: hidden;
+}
+.nada:hover{
+    transform: scale(1,2);
+}
+
+
 /*Institucional*/
 .somos{
     background-image: url(img/compu.jpeg);
@@ -195,6 +261,9 @@ display: inline-block;
     
 }
 
+.titulo{
+    font-weight:500;
+}
 /*..........GRID*/
 
 #grid {
@@ -204,8 +273,8 @@ display: inline-block;
   grid-template-areas: "head head"
                        "nav  main"
                        "nav  foot";
-  grid-template-rows: 150px 1fr 40px;
-  grid-template-columns: 200px 1fr;
+  grid-template-rows: 1fr 1fr 0fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 
